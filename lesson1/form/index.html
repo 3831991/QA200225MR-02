@@ -10,25 +10,25 @@
 
         <div class="frame">
 
-            <form>
+            <form action="order-data.html">
                 <div class="field">
                     <label>שם הלקוח</label>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
 
                 <div class="field">
                     <label>טלפון</label>
-                    <input type="tel">
+                    <input type="tel" required>
                 </div>
 
                 <div class="field">
                     <label>אימייל</label>
-                    <input type="email">
+                    <input type="email" required>
                 </div>
 
                 <div class="field">
                     <label>עיר</label>
-                    <select>
+                    <select required>
                         <option></option>
                         <option>יקנעם</option>
                         <option>באר שבע</option>
@@ -43,9 +43,9 @@
 
                 <div>
                     <p>גודל המגש</p>
-                    <label><input type="radio" name="size"> אישי</label>
-                    <label><input type="radio" name="size"> משפחתי</label>
-                    <label><input type="radio" name="size"> ענק</label>
+                    <label><input type="radio" name="size" required> אישי</label>
+                    <label><input type="radio" name="size" required> משפחתי</label>
+                    <label><input type="radio" name="size" required> ענק</label>
                 </div>
 
                 <div>
