@@ -2,20 +2,60 @@
 
 body {
     direction: rtl;
-    background-color: #00ac40;
+    /* background-color: #00ac40; */
     font-family: "Arimo", sans-serif;
+    background-image: url("https://d3o5sihylz93ps.cloudfront.net/wp-content/uploads/2019/08/13182108/%D7%A1%D7%99%D7%99%D7%9E%D7%9F-185.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 h1 {
     text-align: center;
-    color: white;
+    background-color: white;
     font-family: "Rubik Bubbles", system-ui;
+    max-width: 300px;
+    margin: 18px auto;
+    padding: 12px;
+    border-radius: 16px;
+    color: #7d3201;
 }
 
 .frame {
     background-color: white;
     min-height: 500px;
-    max-width: 900px;
+    max-width: 300px;
     margin: auto;
     border-radius: 8px;
+    padding: 12px;
+}
+
+.field {
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 3px;
+    display: block;
+}
+
+.field input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 0;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid;
+    outline: 0;
+}
+
+button {
+    background: #FF5722;
+    width: 100%;
+    margin-top: 18px;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border: 0;
+    border-radius: 12px;
 }
