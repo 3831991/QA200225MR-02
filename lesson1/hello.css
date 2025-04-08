@@ -1,0 +1,65 @@
+body {
+    /* כיוון האתר */
+    direction: rtl;
+    /* רקע */
+    background-color: #c8f2ff;
+    /* גופן */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    /* רקע */
+    background-color: #62c400;
+    /* צבע טקסט */
+    color: white;
+    /* יישור טקסט */
+    text-align: center;
+    /* ריווח חיצוני */
+    margin: 0;
+    /* ריווח פנימי */
+    padding: 16px;
+}
+
+img {
+    /* מצב תצוגה */
+    display: block;
+    /* רוחב */
+    width: 50%;
+    /* ריווח חיצוני */
+    margin: 12px auto;
+    /* הצללה */
+    box-shadow: 0 0 5px;
+    /* מסגרת */
+    border: 12px solid white;
+}
+
+a {
+    /* רקע */
+    background-color: #62c400;
+    /* צבע טקסט */
+    color: white;
+    /* דקורציה של טקסט */
+    text-decoration: none;
+    /* ריווח פנימי */
+    padding: 8px;
+    /* מצב תצוגה */
+    display: inline-block;
+    /* ריווח תחתון חיצוני */
+    margin-bottom: 8px;
+    /* עיגול קצוות */
+    border-radius: 8px;
+}
+
+/* עיצוב בעת ריחוף עם העכבר */
+a:active {
+    /* גודל גופן */
+    font-size: 25px;
+}
+
+/* עיצוב בעת לחיצה על הקישור */
+a:hover {
+    /* רקע */
+    background-color: red;
+}
+
+
