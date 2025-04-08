@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Rubik+Bubbles&display=swap');
+
+body {
+    direction: rtl;
+    background-color: #00ac40;
+    font-family: "Arimo", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+.frame {
+    background-color: white;
+    min-height: 500px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 8px;
+}
