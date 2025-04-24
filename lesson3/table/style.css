@@ -19,3 +19,7 @@ td {
     width: 150px;
     border: 1px solid white;
 }
+
+.paint {
+    background-color: yellow;
+}
