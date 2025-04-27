@@ -28,6 +28,10 @@ h1 {
     width: 100px;
     background-color: red;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .nadiv:nth-child(1)>.inner {
