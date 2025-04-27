@@ -8,3 +8,63 @@ h1 {
     text-align: center;
     color: white;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.nadiv {
+    background-color: #c1c1c1;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.inner {
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+}
+
+.nadiv:nth-child(1)>.inner {
+    right: 0;
+}
+
+.nadiv:nth-child(2)>.inner {
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+
+.nadiv:nth-child(3)>.inner {
+    left: 0;
+}
+
+.nadiv:nth-child(4)>.inner {
+
+}
+
+.nadiv:nth-child(5)>.inner {
+
+}
+
+.nadiv:nth-child(6)>.inner {
+
+}
+
+.nadiv:nth-child(7)>.inner {
+    bottom: 0;
+}
+
+.nadiv:nth-child(8)>.inner {
+
+}
+
+.nadiv:nth-child(9)>.inner {
+    left: 0;
+    bottom: 0;
+}
