@@ -1,0 +1,35 @@
+body {
+    direction: rtl;
+    background-color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    height: 60px;
+    width: 150px;
+    text-align: center;
+}
+
+td {
+    color: white;
+    border: 1px solid white;
+}
+
+th {
+    background-color: yellow;
+}
+
+td[rowspan] {
+    background-color: #00ff48;
+    color: black;
+}

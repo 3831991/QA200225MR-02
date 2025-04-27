@@ -1,0 +1,10 @@
+body {
+    direction: rtl;
+    background-color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
